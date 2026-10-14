@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dra. Giselle Rosa | Biomédica esteta em Goiânia, Anápolis e São Paulo</title>
+<meta name="description" content="Estética facial e corporal com naturalidade e elegância. Dra. Giselle Rosa, biomédica esteta há 13 anos, atende em Goiânia, Anápolis e São Paulo e forma profissionais pelo Instituto GR.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0F0E0D">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #0F0E0D; -webkit-font-smoothing: antialiased; overflow-x: clip; }
+  *, *::before, *::after { box-sizing: border-box; }
+  a { color: inherit; text-decoration: none; }
+  img { display: block; }
+  em { font-style: italic; }
+
+  /* Hover */
+  a, button { transition: background-color .2s, color .2s, border-color .2s; }
+  .hv-gold:hover { background: #C9A86F !important; color: #0F0E0D !important; }
+  .hv-mute:hover { color: #B9B1A6 !important; }
+  .hv-mute2:hover { color: #5E5650 !important; }
+  .hv-inv:hover { background: #F6F1EA !important; color: #0F0E0D !important; }
+
+  /* Visibilidade por largura (desktop >= 900px; menu completo >= 1180px) */
+  @media (max-width: 899px) { .desk-only { display: none !important; } .site-footer { padding-bottom: 120px !important; } }
+  @media (min-width: 900px) { .mob-only { display: none !important; } }
+  @media (max-width: 1179px) { .wide-only { display: none !important; } }
+  @media (min-width: 1180px) { .narrow-only { display: none !important; } #menu { display: none !important; } }
+
+  #menu { display: none; }
+  #menu.open { display: flex; }
+
+  /* Barra fixa e botão flutuante (só celular, depois do hero) */
+  .mbar, .mfloat { display: none; }
+  @media (max-width: 899px) {
+    body.bar-on .mbar { display: block; }
+    body.bar-on .mfloat { display: flex; }
+  }
+
+  /* Comparador antes/depois */
+  .cv-box { position: relative; width: 100%; background: #0F0E0D; overflow: hidden; cursor: ew-resize; touch-action: pan-y; user-select: none; -webkit-user-select: none; outline: none; }
+  .cv-box:focus-visible { outline: 1px solid #B8955A; outline-offset: 3px; }
+  .cv-layer { position: absolute; inset: 0; background-size: 200% auto; background-repeat: no-repeat; }
+  .cv-tag { position: absolute; top: 14px; padding: 6px 10px; background: #0F0E0D; color: #F6F1EA; font-family: 'Jost', sans-serif; font-size: 10px; letter-spacing: .26em; text-transform: uppercase; pointer-events: none; }
+  .cv-line { position: absolute; top: 0; bottom: 0; width: 1px; background: #F6F1EA; pointer-events: none; }
+  .cv-knob { position: absolute; top: 50%; width: 48px; height: 48px; margin-left: -24px; margin-top: -24px; border-radius: 50%; border: 1px solid #F6F1EA; background: #0F0E0D; color: #F6F1EA; display: flex; align-items: center; justify-content: center; gap: 8px; font-family: 'Cormorant Garamond', serif; font-size: 24px; line-height: 1; pointer-events: none; }
+  .cv-nav { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 12px; border-top: 1px solid; }
+  .cv-dot { min-width: 32px; min-height: 44px; padding: 0; background: none; border: 0; border-bottom: 1px solid transparent; cursor: pointer; font-family: 'Cormorant Garamond', serif; font-size: 19px; }
+  .cv-arrow { width: 44px; height: 44px; border-radius: 50%; background: none; border: 1px solid; cursor: pointer; font-family: 'Jost', sans-serif; font-size: 16px; }
+</style>
+</head>
+<body id="topo">
+
+<header style="position:sticky;top:0;z-index:50;background:#0F0E0D;border-bottom:1px solid #2A2826;color:#F6F1EA">
+  <div style="max-width:1440px;margin:0 auto;padding:0 clamp(18px,4vw,64px);height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px">
+    <a href="#topo" style="display:flex;flex-direction:column;gap:4px;line-height:1">
+      <span style="font-family:'Cormorant Garamond',serif;font-size:27px;font-weight:400;letter-spacing:.01em">Giselle Rosa</span>
+      <span style="font-family:'Jost',sans-serif;font-size:9px;letter-spacing:.36em;color:#B9B1A6">BIOMÉDICA ESTETA</span>
+    </a>
+    <nav class="wide-only" aria-label="Principal" style="display:flex;align-items:center;gap:30px;font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.22em;text-transform:uppercase">
+      <a href="#tratamentos" class="hv-mute">Tratamentos</a>
+      <a href="#resultados" class="hv-mute">Resultados</a>
+      <a href="#sobre" class="hv-mute">Sobre</a>
+      <a href="#unidades" class="hv-mute">Unidades</a>
+      <span style="width:1px;height:18px;background:#3A3735"></span>
+      <a href="#profissionais" class="hv-mute">Para profissionais</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:12px">
+      <a href="#unidades" class="desk-only hv-gold" style="display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 clamp(14px,2vw,26px);background:#B8955A;color:#0F0E0D;font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:500;white-space:nowrap">Agendar avaliação</a>
+      <button type="button" id="menuBtn" class="narrow-only" aria-expanded="false" aria-controls="menu" style="min-height:44px;min-width:44px;padding:0 14px;background:none;border:1px solid #3A3735;color:#F6F1EA;cursor:pointer;font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.24em;text-transform:uppercase">Menu</button>
+    </div>
+  </div>
+  <nav id="menu" aria-label="Menu" style="position:absolute;top:76px;left:0;right:0;background:#0F0E0D;border-bottom:1px solid #2A2826;padding:8px clamp(18px,4vw,64px) 20px;flex-direction:column;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.24em;text-transform:uppercase">
+    <a href="#tratamentos" style="padding:16px 0;border-bottom:1px solid #2A2826">Tratamentos</a>
+    <a href="#resultados" style="padding:16px 0;border-bottom:1px solid #2A2826">Resultados</a>
+    <a href="#sobre" style="padding:16px 0;border-bottom:1px solid #2A2826">Sobre</a>
+    <a href="#unidades" style="padding:16px 0">Unidades</a>
+    <span style="height:1px;background:#B8955A;width:32px;margin:8px 0"></span>
+    <a href="#profissionais" style="padding:16px 0">Para profissionais</a>
+  </nav>
+</header>
+
+<main>
+<!-- Hero desktop -->
+<section class="desk-only" style="background:#0F0E0D;color:#F6F1EA">
+  <div style="display:flex;flex-direction:row;min-height:min(calc(100vh - 76px),920px);max-width:1440px;margin:0 auto">
+    <div style="flex:1 1 46%;display:flex;flex-direction:column;justify-content:center;gap:34px;padding:96px clamp(36px,5vw,96px)">
+      <div style="display:flex;align-items:center;gap:16px">
+        <span style="width:44px;height:1px;background:#B8955A"></span>
+        <span style="font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:#B9B1A6">Naturalização Facial Elegante</span>
+      </div>
+      <h1 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(52px,5.4vw,88px);line-height:1;letter-spacing:-.01em;text-wrap:balance">Estética facial e corporal com <em>naturalidade e elegância</em></h1>
+      <p style="margin:0;max-width:30em;font-family:'Jost',sans-serif;font-weight:300;font-size:18px;line-height:1.65;color:#D9D1C6;text-wrap:pretty">Dra. Giselle Rosa, biomédica esteta há 13 anos. Atende pacientes em Goiânia, Anápolis e São Paulo e forma outros profissionais da estética pelo Instituto GR.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:24px 28px;padding-top:6px">
+        <div style="display:flex;flex-direction:column;gap:8px;padding-top:18px;border-top:1px solid #B8955A">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:26px;line-height:1.1">Sou paciente</span>
+          <span style="font-family:'Jost',sans-serif;font-size:13px;font-weight:300;color:#B9B1A6">Tratamentos faciais e corporais</span>
+          <a href="#unidades" class="hv-gold" style="margin-top:12px;display:flex;align-items:center;justify-content:center;min-height:54px;padding:0 18px;background:#B8955A;color:#0F0E0D;font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:500;text-align:center">Agendar avaliação</a>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;padding-top:18px;border-top:1px solid #3A3735">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:26px;line-height:1.1">Sou profissional</span>
+          <span style="font-family:'Jost',sans-serif;font-size:13px;font-weight:300;color:#B9B1A6">Cursos, mentoria e grupo do Instituto GR</span>
+          <a href="#profissionais" class="hv-inv" style="margin-top:12px;display:flex;align-items:center;justify-content:center;min-height:54px;padding:0 18px;border:1px solid #F6F1EA;color:#F6F1EA;font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:500;text-align:center">Conhecer o Instituto GR</a>
+        </div>
+      </div>
+    </div>
+    <div style="flex:1 1 54%;position:relative;min-height:680px;overflow:hidden">
+      <img src="assets/giselle-retrato-bracos.jpg" alt="Dra. Giselle Rosa em retrato de estúdio" fetchpriority="high" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 18%">
+    </div>
+  </div>
+</section>
+
+<!-- Hero mobile -->
+<section id="heroMob" class="mob-only" style="background:#0F0E0D;color:#F6F1EA;min-height:calc(100vh - 76px);min-height:calc(100svh - 76px);display:flex;flex-direction:column">
+  <div style="position:relative;flex:1 0 auto;height:42vh;min-height:300px;overflow:hidden">
+    <img src="assets/giselle-retrato-bracos.jpg" alt="Dra. Giselle Rosa em retrato de estúdio" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 12%">
+    <div style="position:absolute;left:0;right:0;bottom:0;height:60%;background:linear-gradient(to bottom,rgba(15,14,13,0),#0F0E0D 92%)"></div>
+  </div>
+  <div style="position:relative;margin-top:-104px;padding:0 22px 44px;display:flex;flex-direction:column;gap:16px">
+    <div style="display:flex;align-items:center;gap:12px">
+      <span style="width:28px;height:1px;background:#B8955A"></span>
+      <span style="font-family:'Jost',sans-serif;font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:#D9D1C6">Naturalização Facial Elegante</span>
+    </div>
+    <p role="heading" aria-level="1" style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(34px,9.4vw,46px);line-height:1.02;text-wrap:balance">Estética facial e corporal com <em>naturalidade e elegância</em></p>
+    <p style="margin:0;font-family:'Jost',sans-serif;font-weight:300;font-size:15px;line-height:1.55;color:#D9D1C6">Dra. Giselle Rosa, biomédica esteta há 13 anos. Atende pacientes em Goiânia, Anápolis e São Paulo e forma outros profissionais da estética pelo Instituto GR.</p>
+    <div style="display:flex;flex-direction:column;gap:8px;padding-top:4px">
+      <span style="font-family:'Jost',sans-serif;font-size:12px;font-weight:300;color:#B9B1A6"><span style="font-family:'Cormorant Garamond',serif;font-size:19px;color:#F6F1EA">Sou paciente</span> · Tratamentos faciais e corporais</span>
+      <a href="#unidades" style="display:flex;align-items:center;justify-content:center;min-height:52px;background:#B8955A;color:#0F0E0D;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:500">Agendar avaliação</a>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:8px">
+      <span style="font-family:'Jost',sans-serif;font-size:12px;font-weight:300;color:#B9B1A6"><span style="font-family:'Cormorant Garamond',serif;font-size:19px;color:#F6F1EA">Sou profissional</span> · Cursos, mentoria e grupo do Instituto GR</span>
+      <a href="#profissionais" style="display:flex;align-items:center;justify-content:center;min-height:48px;border:1px solid #F6F1EA;color:#F6F1EA;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:500">Conhecer o Instituto GR</a>
+    </div>
+  </div>
+</section>
+
+<!-- Tratamentos-assinatura -->
+<section id="resultados" style="background:#F6F1EA;color:#1A1716;padding:clamp(88px,11vw,176px) 0;scroll-margin-top:76px">
+  <div style="max-width:1320px;margin:0 auto;padding:0 clamp(20px,5vw,72px);display:flex;flex-direction:column;gap:clamp(96px,12vw,184px)">
+    <div style="display:flex;align-items:center;gap:20px">
+      <span style="font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:#5E5650">Tratamentos-assinatura</span>
+      <span style="flex:1;height:1px;background:#D9CCBB"></span>
+    </div>
+
+    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:56px clamp(40px,7vw,128px);margin-top:calc(-1 * clamp(40px,6vw,104px))">
+      <div style="flex:1 1 320px;max-width:500px;display:flex;flex-direction:column;gap:26px">
+        <div style="display:flex;align-items:center;gap:14px"><span style="font-family:'Cormorant Garamond',serif;font-size:20px;color:#B8955A">01</span><span style="width:48px;height:1px;background:#B8955A"></span></div>
+        <h2 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(40px,4.6vw,72px);line-height:1.02;text-wrap:balance">Naturalização Facial <em>Elegante</em></h2>
+        <p style="margin:0;max-width:30em;font-family:'Jost',sans-serif;font-weight:300;font-size:17px;line-height:1.7;color:#3E3733;text-wrap:pretty">Um planejamento facial completo para realçar seus traços com naturalidade e elegância, sem exageros.</p>
+        <a href="#unidades" class="hv-mute2" style="align-self:flex-start;padding:10px 0;border-bottom:1px solid #B8955A;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:500">Agendar avaliação →</a>
+      </div>
+      <div style="flex:1 1 340px;max-width:460px;margin-left:auto">
+        <div class="cv" data-tone="light" data-cases='[{"src":"assets/facial-01.jpg","kind":"compare","ratio":"9 / 16","posY":"100%"},{"src":"assets/facial-02.jpg","kind":"compare","ratio":"9 / 16","posY":"100%"},{"src":"assets/facial-03.jpg","kind":"compare","ratio":"9 / 16","posY":"100%"}]'></div>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-wrap:wrap;flex-direction:row-reverse;align-items:center;gap:56px clamp(40px,7vw,128px)">
+      <div style="flex:1 1 320px;max-width:480px;display:flex;flex-direction:column;gap:26px">
+        <div style="display:flex;align-items:center;gap:14px"><span style="font-family:'Cormorant Garamond',serif;font-size:20px;color:#B8955A">02</span><span style="width:48px;height:1px;background:#B8955A"></span></div>
+        <h2 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(40px,4.6vw,72px);line-height:1.02;text-wrap:balance">Escultura Labial <em>GR</em></h2>
+        <p style="margin:0;max-width:30em;font-family:'Jost',sans-serif;font-weight:300;font-size:17px;line-height:1.7;color:#3E3733;text-wrap:pretty">Precisão, equilíbrio e naturalidade para valorizar a beleza dos seus lábios. Resultados personalizados, respeitando a individualidade de cada rosto.</p>
+        <a href="#unidades" class="hv-mute2" style="align-self:flex-start;padding:10px 0;border-bottom:1px solid #B8955A;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:500">Agendar avaliação →</a>
+      </div>
+      <div style="flex:1 1 360px;max-width:580px;margin-right:auto">
+        <div class="cv" data-tone="light" data-cases='[{"src":"assets/labios-01.jpg","kind":"whole"},{"src":"assets/labios-02.jpg","kind":"whole"},{"src":"assets/labios-03.jpg","kind":"whole"}]'></div>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-end;gap:56px clamp(40px,7vw,128px)">
+      <div style="flex:1 1 320px;max-width:460px;display:flex;flex-direction:column;gap:26px;padding-bottom:clamp(0px,4vw,72px)">
+        <div style="display:flex;align-items:center;gap:14px"><span style="font-family:'Cormorant Garamond',serif;font-size:20px;color:#B8955A">03</span><span style="width:48px;height:1px;background:#B8955A"></span></div>
+        <h2 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(40px,4.6vw,72px);line-height:1.02;text-wrap:balance">Lipo <em>sem cortes</em></h2>
+        <p style="margin:0;max-width:30em;font-family:'Jost',sans-serif;font-weight:300;font-size:17px;line-height:1.7;color:#3E3733;text-wrap:pretty">Tratamento corporal sem cortes para contorno e gordura localizada.</p>
+        <a href="#unidades" class="hv-mute2" style="align-self:flex-start;padding:10px 0;border-bottom:1px solid #B8955A;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:500">Agendar avaliação →</a>
+      </div>
+      <div style="flex:1 1 360px;max-width:540px;margin-left:auto;margin-right:clamp(0px,5vw,96px)">
+        <div class="cv" data-tone="light" data-cases='[{"src":"assets/corporal-flanco-01.jpg","kind":"whole"},{"src":"assets/corporal-flanco-02.jpg","kind":"whole"}]'></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Corpo -->
+<section style="background:#1C1B1A;color:#F6F1EA;padding:clamp(88px,11vw,168px) 0">
+  <div style="max-width:1320px;margin:0 auto;padding:0 clamp(20px,5vw,72px)">
+    <div style="max-width:1100px;display:flex;flex-wrap:wrap;gap:40px clamp(48px,8vw,140px)">
+      <div style="flex:1 1 300px;max-width:420px;display:flex;flex-direction:column;gap:22px">
+        <span style="font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:#B9B1A6">Corpo</span>
+        <h2 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(44px,5vw,80px);line-height:1;text-wrap:balance">Contorno e <em>definição</em></h2>
+      </div>
+      <div style="flex:1.4 1 400px;display:flex;flex-direction:column;gap:36px">
+        <div style="display:flex;flex-direction:column;border-bottom:1px solid #3A3735">
+          <div style="display:flex;flex-direction:column;gap:14px;padding:30px 0;border-top:1px solid #3A3735">
+            <div style="display:flex;align-items:baseline;gap:18px"><span style="font-family:'Cormorant Garamond',serif;font-size:16px;color:#B8955A">01</span><span style="font-family:'Cormorant Garamond',serif;font-size:clamp(28px,2.6vw,36px);line-height:1.1">Lipo Manual GR</span></div>
+            <p style="margin:0;padding-left:38px;font-family:'Jost',sans-serif;font-weight:300;font-size:16px;line-height:1.7;color:#C9C0B4;text-wrap:pretty">Vai muito além de uma massagem tradicional. Um método que valoriza a definição, realça o contorno corporal e evidencia a musculatura, destacando suas curvas de forma estratégica.</p>
+          </div>
+          <div style="display:flex;align-items:baseline;gap:18px;padding:30px 0;border-top:1px solid #3A3735">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:16px;color:#B8955A">02</span><span style="font-family:'Cormorant Garamond',serif;font-size:clamp(28px,2.6vw,36px);line-height:1.1">Bumbum Up</span>
+          </div>
+          <div style="display:flex;align-items:baseline;gap:18px;padding:30px 0;border-top:1px solid #3A3735">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:16px;color:#B8955A">03</span><span style="font-family:'Cormorant Garamond',serif;font-size:clamp(28px,2.6vw,36px);line-height:1.1">Massagens</span>
+          </div>
+        </div>
+        <a href="#unidades" class="hv-mute" style="align-self:flex-start;padding:10px 0;border-bottom:1px solid #B8955A;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:500">Agendar avaliação →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Vasinhos -->
+<section style="background:#E9DFD2;color:#1A1716;padding:clamp(72px,9vw,128px) 0">
+  <div style="max-width:1100px;margin:0 auto;padding:0 clamp(20px,5vw,72px);display:flex;flex-wrap:wrap;align-items:center;gap:48px clamp(36px,7vw,112px)">
+    <div style="flex:0 1 340px;display:flex;flex-direction:column;gap:12px">
+      <img src="assets/vasinhos-peim-01.jpg" alt="Antes e depois — secagem de vasinhos" loading="lazy" style="display:block;width:100%;aspect-ratio:3 / 4;object-fit:contain;background:#0F0E0D">
+      <span style="font-family:'Jost',sans-serif;font-size:12px;color:#5E5650">Resultados variam de pessoa para pessoa.</span>
+    </div>
+    <div style="flex:1 1 320px;max-width:520px;display:flex;flex-direction:column;gap:24px">
+      <span style="font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:#5E5650">Vascular</span>
+      <h2 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(34px,3.6vw,52px);line-height:1.05;text-wrap:balance">Secagem de vasinhos com a técnica <em>PEIM</em></h2>
+      <p style="margin:0;font-family:'Jost',sans-serif;font-weight:300;font-size:16px;line-height:1.7;color:#3E3733;text-wrap:pretty">Indicada para a secagem de pequenos vasos aparentes, ajudando a deixar a pele com uma aparência mais uniforme e bonita. Um procedimento realizado de forma personalizada, após avaliação profissional.</p>
+      <a href="https://wa.me/5562991566274?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20a%20secagem%20de%20vasinhos." target="_blank" rel="noopener" class="hv-gold" style="align-self:flex-start;display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0 32px;background:#B8955A;color:#0F0E0D;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:500">Falar sobre vasinhos</a>
+    </div>
+  </div>
+</section>
+
+<!-- Todos os tratamentos -->
+<section id="tratamentos" style="background:#0F0E0D;color:#F6F1EA;padding:clamp(88px,10vw,152px) 0;scroll-margin-top:76px">
+  <div style="max-width:1320px;margin:0 auto;padding:0 clamp(20px,5vw,72px);display:flex;flex-wrap:wrap;gap:56px clamp(48px,7vw,120px)">
+    <div style="flex:1 1 260px;max-width:340px;display:flex;flex-direction:column;gap:22px">
+      <span style="font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:#B9B1A6">Tratamentos</span>
+      <h2 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(40px,4.2vw,64px);line-height:1.02">Todos os <em>tratamentos</em></h2>
+    </div>
+    <div style="flex:3 1 560px;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:48px 44px">
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <div style="display:flex;align-items:center;gap:12px;padding-bottom:6px"><span style="width:20px;height:1px;background:#B8955A"></span><span style="font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:#B9B1A6">Facial</span></div>
+        <div style="display:flex;flex-direction:column;font-family:'Cormorant Garamond',serif;font-size:22px;line-height:1.2">
+          <span style="padding:11px 0;border-bottom:1px solid #2A2826">Naturalização Facial Elegante</span>
+          <span style="padding:11px 0;border-bottom:1px solid #2A2826">Escultura Labial GR</span>
+          <span style="padding:11px 0;border-bottom:1px solid #2A2826">Botox</span>
+          <span style="padding:11px 0;border-bottom:1px solid #2A2826">Preenchimento</span>
+          <span style="padding:11px 0;border-bottom:1px solid #2A2826">Bioestimulador de colágeno</span>
+          <span style="padding:11px 0;border-bottom:1px solid #2A2826">Fios de sustentação</span>
+          <span style="padding:11px 0;border-bottom:1px solid #2A2826">Laser CO2 fracionado</span>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <div style="display:flex;align-items:center;gap:12px;padding-bottom:6px"><span style="width:20px;height:1px;background:#B8955A"></span><span style="font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:#B9B1A6">Corporal</span></div>
+        <div style="display:flex;flex-direction:column;font-family:'Cormorant Garamond',serif;font-size:22px;line-height:1.2">
+          <span style="padding:11px 0;border-bottom:1px solid #2A2826">Lipo sem cortes</span>
+          <span style="padding:11px 0;border-bottom:1px solid #2A2826">Lipo Manual GR</span>
+          <span style="padding:11px 0;border-bottom:1px solid #2A2826">Bumbum Up</span>
+          <span style="padding:11px 0;border-bottom:1px solid #2A2826">Massagens</span>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:44px">
+        <div style="display:flex;flex-direction:column;gap:14px">
+          <div style="display:flex;align-items:center;gap:12px;padding-bottom:6px"><span style="width:20px;height:1px;background:#B8955A"></span><span style="font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:#B9B1A6">Tecnologias</span></div>
+          <div style="display:flex;flex-direction:column;font-family:'Cormorant Garamond',serif;font-size:22px;line-height:1.2">
+            <span style="padding:11px 0;border-bottom:1px solid #2A2826">Endolaser</span>
+            <span style="padding:11px 0;border-bottom:1px solid #2A2826">Ultraformer MPT</span>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:14px">
+          <div style="display:flex;align-items:center;gap:12px;padding-bottom:6px"><span style="width:20px;height:1px;background:#B8955A"></span><span style="font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:#B9B1A6">Vascular</span></div>
+          <div style="display:flex;flex-direction:column;font-family:'Cormorant Garamond',serif;font-size:22px;line-height:1.2">
+            <span style="padding:11px 0;border-bottom:1px solid #2A2826">Secagem de microvasos (PEIM)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sobre -->
+<section id="sobre" style="background:#F6F1EA;color:#1A1716;padding:clamp(88px,11vw,168px) 0;scroll-margin-top:76px">
+  <div style="max-width:1320px;margin:0 auto;padding:0 clamp(20px,5vw,72px);display:flex;flex-wrap:wrap;align-items:flex-start;gap:56px clamp(48px,7vw,120px)">
+    <div style="flex:1 1 380px;max-width:620px">
+      <img src="assets/giselle-retrato-mao-queixo.jpg" alt="Dra. Giselle Rosa" loading="lazy" style="display:block;width:100%;aspect-ratio:4 / 5;object-fit:cover;object-position:50% 20%">
+    </div>
+    <div style="flex:1 1 340px;max-width:520px;display:flex;flex-direction:column;gap:30px;padding-top:clamp(0px,7vw,120px)">
+      <span style="font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:#5E5650">Sobre</span>
+      <h2 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(44px,5vw,80px);line-height:1">Quem cuida <em>de você</em></h2>
+      <p style="margin:0;font-family:'Jost',sans-serif;font-weight:300;font-size:17px;line-height:1.75;color:#3E3733;text-wrap:pretty">Biomédica esteta, graduada em Biomedicina e especialista em Saúde Estética. Há 13 anos atende com foco em naturalidade, elegância e segurança, e hoje também forma outros profissionais como professora e mentora no Instituto GR.</p>
+      <figure style="margin:16px 0 0;padding-top:32px;border-top:1px solid #D9CCBB;display:flex;flex-wrap:wrap;align-items:flex-end;gap:24px">
+        <img src="assets/giselle-miami-dr-rey.jpg" alt="Dra. Giselle Rosa ao lado do Dr. Robert Rey em Miami" loading="lazy" style="display:block;width:200px;aspect-ratio:4 / 5;object-fit:cover;object-position:50% 20%">
+        <figcaption style="flex:1 1 180px;max-width:260px;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:22px;line-height:1.3;color:#1A1716">Em Miami (EUA), onde palestrou ao lado do Dr. Robert Rey.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- Como funciona -->
+<section style="background:#E9DFD2;color:#1A1716;padding:clamp(80px,10vw,144px) 0">
+  <div style="max-width:1320px;margin:0 auto;padding:0 clamp(20px,5vw,72px);display:flex;flex-direction:column;gap:clamp(48px,6vw,80px)">
+    <h2 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(40px,4.2vw,64px);line-height:1">Como <em>funciona</em></h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:48px clamp(32px,4vw,64px)">
+      <div style="display:flex;flex-direction:column;gap:20px">
+        <span style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:64px;line-height:1;color:#B8955A">01</span>
+        <span style="height:1px;background:#CDBFAE"></span>
+        <span style="font-family:'Cormorant Garamond',serif;font-size:26px;line-height:1.25;text-wrap:pretty">Você escolhe a unidade e chama no WhatsApp</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:20px">
+        <span style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:64px;line-height:1;color:#B8955A">02</span>
+        <span style="height:1px;background:#CDBFAE"></span>
+        <span style="font-family:'Cormorant Garamond',serif;font-size:26px;line-height:1.25;text-wrap:pretty">Avaliação personalizada com a Dra. Giselle</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:20px">
+        <span style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:64px;line-height:1;color:#B8955A">03</span>
+        <span style="height:1px;background:#CDBFAE"></span>
+        <span style="font-family:'Cormorant Garamond',serif;font-size:26px;line-height:1.25;text-wrap:pretty">Plano de tratamento pensado para o seu rosto e o seu corpo</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Unidades -->
+<section id="unidades" style="background:#1C1B1A;color:#F6F1EA;padding:clamp(88px,10vw,152px) 0;scroll-margin-top:76px">
+  <div style="max-width:1320px;margin:0 auto;padding:0 clamp(20px,5vw,72px);display:flex;flex-direction:column;gap:clamp(48px,6vw,80px)">
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px 48px">
+      <h2 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(44px,5vw,80px);line-height:1">Unidades</h2>
+      <span style="font-family:'Jost',sans-serif;font-weight:300;font-size:16px;color:#C9C0B4">Escolha sua cidade e fale direto no WhatsApp</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:56px clamp(28px,3vw,48px)">
+      <div style="display:flex;flex-direction:column;gap:18px;padding-top:28px;border-top:1px solid #B8955A">
+        <span style="font-family:'Cormorant Garamond',serif;font-size:clamp(30px,2.6vw,38px);line-height:1.1">Goiânia · Jardim Goiás</span>
+        <span style="font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:#B9B1A6">GR Clinic</span>
+        <span style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;color:#C9C0B4">[PREENCHER]</span>
+        <a href="#unidades" class="hv-gold" style="margin-top:12px;display:flex;align-items:center;justify-content:center;min-height:54px;padding:0 24px;background:#B8955A;color:#0F0E0D;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:500">Agendar em Goiânia</a>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:18px;padding-top:28px;border-top:1px solid #B8955A">
+        <span style="font-family:'Cormorant Garamond',serif;font-size:clamp(30px,2.6vw,38px);line-height:1.1">Anápolis</span>
+        <span style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;color:#C9C0B4;margin-top:auto">[PREENCHER]</span>
+        <a href="#unidades" class="hv-gold" style="margin-top:12px;display:flex;align-items:center;justify-content:center;min-height:54px;padding:0 24px;background:#B8955A;color:#0F0E0D;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:500">Agendar em Anápolis</a>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:18px;padding-top:28px;border-top:1px solid #B8955A">
+        <span style="font-family:'Cormorant Garamond',serif;font-size:clamp(30px,2.6vw,38px);line-height:1.1">São Paulo</span>
+        <span style="font-family:'Jost',sans-serif;font-weight:300;font-size:15px;color:#C9C0B4;margin-top:auto">[PREENCHER]</span>
+        <a href="#unidades" class="hv-gold" style="margin-top:12px;display:flex;align-items:center;justify-content:center;min-height:54px;padding:0 24px;background:#B8955A;color:#0F0E0D;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:500">Agendar em São Paulo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Perguntas frequentes -->
+<section style="background:#F6F1EA;color:#1A1716;padding:clamp(88px,10vw,152px) 0">
+  <div style="max-width:1320px;margin:0 auto;padding:0 clamp(20px,5vw,72px);display:flex;flex-wrap:wrap;gap:40px clamp(48px,7vw,120px)">
+    <h2 style="flex:1 1 260px;max-width:380px;margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(40px,4.2vw,64px);line-height:1.02">Perguntas <em>frequentes</em></h2>
+    <div id="faq" style="flex:2 1 480px;display:flex;flex-direction:column;border-bottom:1px solid #D9CCBB">
+      <div class="faq-item" style="border-top:1px solid #D9CCBB">
+        <button type="button" aria-expanded="true" style="width:100%;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:26px 0;background:none;border:0;cursor:pointer;text-align:left;font-family:'Cormorant Garamond',serif;font-size:clamp(22px,2.2vw,28px);color:#1A1716"><span>Vai ficar natural?</span><span class="sign" aria-hidden="true" style="flex:0 0 24px;text-align:center;font-family:'Jost',sans-serif;font-weight:300;font-size:24px;color:#B8955A">−</span></button>
+        <p style="margin:0;padding:0 48px 28px 0;font-family:'Jost',sans-serif;font-weight:300;font-size:16px;line-height:1.7;color:#3E3733">O planejamento é feito na avaliação, de forma personalizada. A proposta é realçar, sem exageros.</p>
+      </div>
+      <div class="faq-item" style="border-top:1px solid #D9CCBB">
+        <button type="button" aria-expanded="false" style="width:100%;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:26px 0;background:none;border:0;cursor:pointer;text-align:left;font-family:'Cormorant Garamond',serif;font-size:clamp(22px,2.2vw,28px);color:#1A1716"><span>Como sei qual tratamento é para mim?</span><span class="sign" aria-hidden="true" style="flex:0 0 24px;text-align:center;font-family:'Jost',sans-serif;font-weight:300;font-size:24px;color:#B8955A">+</span></button>
+        <p hidden style="margin:0;padding:0 48px 28px 0;font-family:'Jost',sans-serif;font-weight:300;font-size:16px;line-height:1.7;color:#3E3733">Você não precisa chegar sabendo. Na avaliação, a Dra. Giselle entende o que te incomoda e indica o caminho.</p>
+      </div>
+      <div class="faq-item" style="border-top:1px solid #D9CCBB">
+        <button type="button" aria-expanded="false" style="width:100%;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:26px 0;background:none;border:0;cursor:pointer;text-align:left;font-family:'Cormorant Garamond',serif;font-size:clamp(22px,2.2vw,28px);color:#1A1716"><span>Quanto custa?</span><span class="sign" aria-hidden="true" style="flex:0 0 24px;text-align:center;font-family:'Jost',sans-serif;font-weight:300;font-size:24px;color:#B8955A">+</span></button>
+        <p hidden style="margin:0;padding:0 48px 28px 0;font-family:'Jost',sans-serif;font-weight:300;font-size:16px;line-height:1.7;color:#3E3733">Os valores são passados na avaliação, conforme o seu plano de tratamento.</p>
+      </div>
+      <div class="faq-item" style="border-top:1px solid #D9CCBB">
+        <button type="button" aria-expanded="false" style="width:100%;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:26px 0;background:none;border:0;cursor:pointer;text-align:left;font-family:'Cormorant Garamond',serif;font-size:clamp(22px,2.2vw,28px);color:#1A1716"><span>Em quais cidades a Dra. Giselle atende?</span><span class="sign" aria-hidden="true" style="flex:0 0 24px;text-align:center;font-family:'Jost',sans-serif;font-weight:300;font-size:24px;color:#B8955A">+</span></button>
+        <p hidden style="margin:0;padding:0 48px 28px 0;font-family:'Jost',sans-serif;font-weight:300;font-size:16px;line-height:1.7;color:#3E3733">Goiânia (Jardim Goiás), Anápolis e São Paulo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Para profissionais -->
+<section id="profissionais" style="background:#0F0E0D;color:#F6F1EA;padding:clamp(96px,12vw,184px) 0;scroll-margin-top:76px">
+  <div style="max-width:1320px;margin:0 auto;padding:0 clamp(20px,5vw,72px);display:flex;flex-direction:column;gap:clamp(72px,9vw,136px)">
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:36px clamp(48px,7vw,120px)">
+      <div style="flex:1 1 480px;max-width:800px;display:flex;flex-direction:column;gap:30px">
+        <div style="display:flex;align-items:center;gap:16px">
+          <span style="width:64px;height:1px;background:#B8955A"></span>
+          <span style="font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:#D9D1C6">Para profissionais · Instituto GR</span>
+        </div>
+        <h2 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(46px,6vw,100px);line-height:.98;letter-spacing:-.01em;text-wrap:balance">Aprenda com quem atende <em>há 13 anos</em></h2>
+      </div>
+      <p style="flex:1 1 300px;max-width:420px;margin:0;font-family:'Jost',sans-serif;font-weight:300;font-size:17px;line-height:1.7;color:#C9C0B4;text-wrap:pretty">No Instituto GR, a Dra. Giselle forma profissionais da saúde estética em cursos VIP de escultura facial, escultura corporal e tecnologias, em Goiânia.</p>
+    </div>
+
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-start;gap:72px clamp(48px,8vw,140px)">
+      <div id="cursos-vip" style="flex:1 1 320px;max-width:440px;display:flex;flex-direction:column;gap:28px;scroll-margin-top:96px">
+        <h3 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(36px,3.6vw,52px);line-height:1">Cursos <em>VIP</em></h3>
+        <div style="display:flex;flex-direction:column;border-bottom:1px solid #2A2826">
+          <div style="display:flex;align-items:baseline;gap:18px;padding:18px 0;border-top:1px solid #2A2826"><span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:#B8955A">01</span><span style="font-family:'Cormorant Garamond',serif;font-size:26px">Escultura Facial</span></div>
+          <div style="display:flex;align-items:baseline;gap:18px;padding:18px 0;border-top:1px solid #2A2826"><span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:#B8955A">02</span><span style="font-family:'Cormorant Garamond',serif;font-size:26px">Escultura Corporal</span></div>
+          <div style="display:flex;align-items:baseline;gap:18px;padding:18px 0;border-top:1px solid #2A2826"><span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:#B8955A">03</span><span style="font-family:'Cormorant Garamond',serif;font-size:26px">Tecnologias</span></div>
+        </div>
+        <a href="https://www.instagram.com/institutodragisellerosa/" target="_blank" rel="noopener" class="hv-gold" style="align-self:flex-start;display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0 30px;background:#B8955A;color:#0F0E0D;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:500">Quero saber dos cursos</a>
+      </div>
+      <div style="flex:1.5 1 480px;margin-left:auto;display:flex;flex-wrap:wrap;align-items:flex-end;gap:32px 44px;padding-top:clamp(0px,6vw,104px)">
+        <div style="flex:1 1 280px;max-width:420px;display:flex;flex-direction:column;gap:12px">
+          <img src="assets/gluteos-01.jpg" alt="Caso clínico — harmonização de glúteos" loading="lazy" style="display:block;width:100%;aspect-ratio:1 / 1;object-fit:contain;background:#0F0E0D;border:1px solid #2A2826">
+          <span style="font-family:'Jost',sans-serif;font-size:12px;color:#B9B1A6">Caso clínico da Dra. Giselle Rosa · Resultados variam de pessoa para pessoa.</span>
+        </div>
+        <div style="flex:1 1 240px;max-width:340px;display:flex;flex-direction:column;gap:20px;padding-bottom:36px">
+          <h3 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(30px,2.8vw,40px);line-height:1.05;text-wrap:balance">Curso de Harmonização de <em>Glúteos</em></h3>
+          <p style="margin:0;font-family:'Jost',sans-serif;font-weight:300;font-size:16px;line-height:1.7;color:#C9C0B4;text-wrap:pretty">Para profissionais que querem entregar glúteos com mais projeção, firmeza e contorno. No curso, você aprende o método na prática.</p>
+          <a href="https://www.instagram.com/institutodragisellerosa/" target="_blank" rel="noopener" class="hv-mute" style="align-self:flex-start;padding:10px 0;border-bottom:1px solid #B8955A;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:500">Quero saber deste curso →</a>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-wrap:wrap;align-items:stretch;gap:48px clamp(40px,6vw,96px)">
+      <div style="flex:1.6 1 420px;display:flex;flex-wrap:wrap;gap:24px 48px;padding-top:32px;border-top:1px solid #3A3735">
+        <h3 style="flex:1 1 200px;margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(40px,4.4vw,68px);line-height:1"><em>Mentoria</em></h3>
+        <div style="flex:1 1 260px;max-width:380px;display:flex;flex-direction:column;gap:20px">
+          <p style="margin:0;font-family:'Jost',sans-serif;font-weight:300;font-size:16px;line-height:1.7;color:#C9C0B4">Acompanhamento direto com a Dra. Giselle para profissionais e clínicas.</p>
+          <a href="https://www.instagram.com/institutodragisellerosa/" target="_blank" rel="noopener" class="hv-mute" style="align-self:flex-start;padding:10px 0;border-bottom:1px solid #B8955A;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:500">Quero saber da mentoria →</a>
+        </div>
+      </div>
+      <div style="flex:1 1 300px;max-width:440px;display:flex;flex-direction:column;gap:18px;padding:32px;border:1px solid #3A3735;background:#1C1B1A">
+        <h3 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:30px;line-height:1.1">Códigos da Ascensão</h3>
+        <p style="margin:0;font-family:'Jost',sans-serif;font-weight:300;font-size:15px;line-height:1.7;color:#C9C0B4">Grupo no WhatsApp para clínicas e profissionais da estética.</p>
+        <a href="#profissionais" class="hv-inv" style="margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 26px;border:1px solid #F6F1EA;color:#F6F1EA;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:500">Entrar no grupo</a>
+      </div>
+    </div>
+
+    <div style="padding-top:32px;border-top:1px solid #2A2826;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(20px,2vw,26px);color:#D9D1C6">Professora em cursos e pós-graduações · Palestrante em Miami (EUA)</div>
+  </div>
+</section>
+
+<!-- CTA final -->
+<section style="background:#0F0E0D;color:#F6F1EA;border-top:1px solid #2A2826">
+  <div style="max-width:1440px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:stretch">
+    <div style="flex:1 1 420px;position:relative;min-height:clamp(420px,60vw,820px)">
+      <img src="assets/giselle-retrato-maos.jpg" alt="Dra. Giselle Rosa" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 22%">
+    </div>
+    <div style="flex:1 1 420px;display:flex;flex-direction:column;justify-content:center;gap:40px;padding:clamp(56px,8vw,128px) clamp(22px,6vw,112px)">
+      <span style="width:44px;height:1px;background:#B8955A"></span>
+      <h2 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(40px,5vw,80px);line-height:1.02;text-wrap:balance">Naturalidade e elegância <em>começam na avaliação.</em></h2>
+      <a href="#unidades" class="hv-gold" style="align-self:flex-start;display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 36px;background:#B8955A;color:#0F0E0D;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.24em;text-transform:uppercase;font-weight:500">Agendar avaliação</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer" style="background:#0F0E0D;color:#F6F1EA;border-top:1px solid #2A2826;padding:56px 0">
+  <div style="max-width:1320px;margin:0 auto;padding:0 clamp(20px,5vw,72px);display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:36px 56px">
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div style="display:flex;flex-direction:column;gap:4px;line-height:1">
+        <span style="font-family:'Cormorant Garamond',serif;font-size:27px">Giselle Rosa</span>
+        <span style="font-family:'Jost',sans-serif;font-size:9px;letter-spacing:.36em;color:#B9B1A6">BIOMÉDICA ESTETA</span>
+      </div>
+      <span style="font-family:'Jost',sans-serif;font-weight:300;font-size:13px;color:#B9B1A6">Dra. Giselle Rosa · Biomédica esteta · CRBM [PREENCHER]</span>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:10px;font-family:'Jost',sans-serif;font-size:14px;font-weight:300">
+      <span style="font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:#B9B1A6">Instagram</span>
+      <a href="https://www.instagram.com/dragisellerosa/" target="_blank" rel="noopener" class="hv-mute">@dragisellerosa</a>
+      <a href="https://www.instagram.com/grclinic.goiania/" target="_blank" rel="noopener" class="hv-mute">@grclinic.goiania</a>
+    </div>
+    <span style="align-self:flex-start;padding:8px 14px;border:1px solid #3A3735;font-family:'Jost',sans-serif;font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:#B9B1A6">Proposta de layout · não é o site oficial</span>
+  </div>
+</footer>
+
+<!-- Celular: botão flutuante + barra fixa -->
+<a href="#unidades" class="mfloat" aria-label="WhatsApp — escolher unidade" style="position:fixed;right:16px;bottom:84px;z-index:60;width:56px;height:56px;border-radius:50%;background:#1C1B1A;border:1px solid #B8955A;align-items:center;justify-content:center">
+  <span style="position:relative;width:24px;height:24px;border:1.5px solid #F6F1EA;border-radius:50%"><span style="position:absolute;left:-3px;bottom:-3px;width:8px;height:8px;background:#1C1B1A;border-left:1.5px solid #F6F1EA;border-bottom:1.5px solid #F6F1EA;transform:skewX(-10deg)"></span></span>
+</a>
+<div class="mbar" style="position:fixed;left:0;right:0;bottom:0;z-index:60;background:#0F0E0D;border-top:1px solid #2A2826;padding:10px 16px calc(10px + env(safe-area-inset-bottom))">
+  <a id="barLink" href="#unidades" style="display:flex;align-items:center;justify-content:center;min-height:50px;background:#B8955A;color:#0F0E0D;font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:500">Agendar avaliação</a>
+</div>
+
+<script>
+(() => {
+  // Menu (abaixo de 1180px)
+  const menu = document.getElementById('menu');
+  const menuBtn = document.getElementById('menuBtn');
+  const setMenu = open => {
+    menu.classList.toggle('open', open);
+    menuBtn.textContent = open ? 'Fechar' : 'Menu';
+    menuBtn.setAttribute('aria-expanded', open);
+  };
+  menuBtn.addEventListener('click', () => setMenu(!menu.classList.contains('open')));
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+
+  // Barra fixa do celular: aparece depois do hero e muda de texto na seção de profissionais
+  const heroMob = document.getElementById('heroMob');
+  const pro = document.getElementById('profissionais');
+  const barLink = document.getElementById('barLink');
+  const onScroll = () => {
+    const h = window.innerHeight;
+    document.body.classList.toggle('bar-on', heroMob.getBoundingClientRect().bottom < 120);
+    const r = pro.getBoundingClientRect();
+    const inPro = r.top < h * 0.6 && r.bottom > h * 0.4;
+    barLink.textContent = inPro ? 'Conhecer os cursos' : 'Agendar avaliação';
+    barLink.setAttribute('href', inPro ? '#cursos-vip' : '#unidades');
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  onScroll();
+
+  // Perguntas frequentes: um item aberto por vez
+  const items = [...document.querySelectorAll('#faq .faq-item')];
+  items.forEach(item => item.querySelector('button').addEventListener('click', () => {
+    const willOpen = item.querySelector('p').hidden;
+    items.forEach(o => {
+      const open = o === item && willOpen;
+      o.querySelector('p').hidden = !open;
+      o.querySelector('button').setAttribute('aria-expanded', open);
+      o.querySelector('.sign').textContent = open ? '−' : '+';
+    });
+  }));
+
+  // Antes e depois: comparador (arrastar) ou imagem inteira, com navegação entre casos
+  const el = (tag, css, attrs) => { const n = document.createElement(tag); if (css) n.style.cssText = css; Object.assign(n, attrs || {}); return n; };
+  document.querySelectorAll('.cv').forEach(root => {
+    const cases = JSON.parse(root.dataset.cases);
+    const dark = root.dataset.tone === 'dark';
+    const ink = dark ? '#F6F1EA' : '#1A1716', mute = dark ? '#B9B1A6' : '#5E5650', rule = dark ? '#3A3735' : '#D9CCBB';
+    let i = 0, pos = 50, drag = false;
+    root.style.cssText = 'display:flex;flex-direction:column;gap:16px;width:100%';
+    const stage = el('div');
+    root.appendChild(stage);
+
+    let nav, dots = [];
+    if (cases.length > 1) {
+      nav = el('div', 'border-top-color:' + rule, { className: 'cv-nav' });
+      const dotWrap = el('div', 'display:flex;gap:18px');
+      cases.forEach((c, k) => {
+        const b = el('button', '', { className: 'cv-dot', type: 'button', textContent: String(k + 1).padStart(2, '0') });
+        b.setAttribute('aria-label', 'Ver caso ' + (k + 1));
+        b.addEventListener('click', () => go(k));
+        dots.push(b); dotWrap.appendChild(b);
+      });
+      const arrows = el('div', 'display:flex;gap:10px');
+      [['←', -1, 'Caso anterior'], ['→', 1, 'Próximo caso']].forEach(([t, d, l]) => {
+        const b = el('button', 'color:' + ink + ';border-color:' + rule, { className: 'cv-arrow', type: 'button', textContent: t });
+        b.setAttribute('aria-label', l);
+        b.addEventListener('click', () => go(i + d));
+        arrows.appendChild(b);
+      });
+      nav.append(dotWrap, arrows);
+      root.appendChild(nav);
+    }
+    const foot = el('div', "display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px;font-family:'Jost',sans-serif;font-size:12px;color:" + mute);
+    const note = el('span', '', { textContent: 'Resultados variam de pessoa para pessoa.' });
+    const hint = el('span', 'letter-spacing:.2em;text-transform:uppercase;font-size:10px', { textContent: 'Arraste para comparar' });
+    foot.append(note, hint);
+    root.appendChild(foot);
+
+    let box, before, line, knob;
+    const paint = () => {
+      if (!before) return;
+      before.style.clipPath = 'inset(0 ' + (100 - pos) + '% 0 0)';
+      line.style.left = knob.style.left = pos + '%';
+      box.setAttribute('aria-valuenow', Math.round(pos));
+    };
+    const setFrom = e => { const r = box.getBoundingClientRect(); pos = Math.max(0, Math.min(100, (e.clientX - r.left) / r.width * 100)); paint(); };
+
+    const render = () => {
+      const cur = cases[i];
+      stage.innerHTML = ''; before = null;
+      if (cur.kind === 'compare') {
+        const y = cur.posY || '50%';
+        box = el('div', 'aspect-ratio:' + (cur.ratio || '1 / 1'), { className: 'cv-box', tabIndex: 0 });
+        box.setAttribute('role', 'slider');
+        box.setAttribute('aria-label', 'Arraste para comparar antes e depois');
+        box.setAttribute('aria-valuemin', '0'); box.setAttribute('aria-valuemax', '100');
+        const bg = 'url("' + cur.src + '")';
+        const after = el('div', 'background-image:' + bg + ';background-position:100% ' + y, { className: 'cv-layer' });
+        before = el('div', 'background-image:' + bg + ';background-position:0% ' + y, { className: 'cv-layer' });
+        const t1 = el('span', 'left:14px', { className: 'cv-tag', textContent: 'Antes' });
+        const t2 = el('span', 'right:14px', { className: 'cv-tag', textContent: 'Depois' });
+        line = el('div', '', { className: 'cv-line' });
+        knob = el('div', '', { className: 'cv-knob', innerHTML: '<span>‹</span><span>›</span>' });
+        box.append(after, before, t1, t2, line, knob);
+        box.addEventListener('pointerdown', e => { drag = true; try { box.setPointerCapture(e.pointerId); } catch (_) {} setFrom(e); });
+        box.addEventListener('pointermove', e => { if (drag) setFrom(e); });
+        ['pointerup', 'pointercancel'].forEach(t => box.addEventListener(t, () => { drag = false; }));
+        box.addEventListener('keydown', e => {
+          if (e.key === 'ArrowLeft') { pos = Math.max(0, pos - 5); paint(); }
+          if (e.key === 'ArrowRight') { pos = Math.min(100, pos + 5); paint(); }
+        });
+        stage.appendChild(box);
+        paint();
+        hint.style.display = '';
+      } else {
+        const img = el('img', 'display:block;width:100%;aspect-ratio:' + (cur.ratio || '1 / 1') + ';object-fit:contain;background:#0F0E0D', { src: cur.src, alt: 'Antes e depois', loading: 'lazy' });
+        stage.appendChild(img);
+        hint.style.display = 'none';
+      }
+      dots.forEach((b, k) => { b.style.color = k === i ? ink : mute; b.style.borderBottomColor = k === i ? '#B8955A' : 'transparent'; });
+    };
+    const go = k => { i = (k + cases.length) % cases.length; pos = 50; render(); };
+    render();
+  });
+})();
+</script>
+</body>
+</html>
